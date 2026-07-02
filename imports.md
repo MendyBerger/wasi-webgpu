@@ -99,7 +99,7 @@
 <h4><a id="gpu_buffer_dynamic_offset"></a><code>type gpu-buffer-dynamic-offset</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_buffer_map_state"></a>`enum gpu-buffer-map-state`
+<h4><a id="gpu_buffer_map_state"></a><code>enum gpu-buffer-map-state</code></h4>
 <h5>Enum Cases</h5>
 <ul>
 <li><a id="gpu_buffer_map_state.unmapped"></a><code>unmapped</code></li>
@@ -109,16 +109,16 @@
 <h4><a id="gpu_buffer_usage"></a><code>flags gpu-buffer-usage</code></h4>
 <h5>Flags members</h5>
 <ul>
-<li><a id="gpu_buffer_usage.map_read"></a><code>map-read</code>: </li>
-<li><a id="gpu_buffer_usage.map_write"></a><code>map-write</code>: </li>
-<li><a id="gpu_buffer_usage.copy_src"></a><code>copy-src</code>: </li>
-<li><a id="gpu_buffer_usage.copy_dst"></a><code>copy-dst</code>: </li>
-<li><a id="gpu_buffer_usage.index"></a><code>index</code>: </li>
-<li><a id="gpu_buffer_usage.vertex"></a><code>vertex</code>: </li>
-<li><a id="gpu_buffer_usage.uniform"></a><code>uniform</code>: </li>
-<li><a id="gpu_buffer_usage.storage"></a><code>storage</code>: </li>
-<li><a id="gpu_buffer_usage.indirect"></a><code>indirect</code>: </li>
-<li><a id="gpu_buffer_usage.query_resolve"></a><code>query-resolve</code>: </li>
+<li><a id="gpu_buffer_usage.map_read"></a><code>map-read</code>:</li>
+<li><a id="gpu_buffer_usage.map_write"></a><code>map-write</code>:</li>
+<li><a id="gpu_buffer_usage.copy_src"></a><code>copy-src</code>:</li>
+<li><a id="gpu_buffer_usage.copy_dst"></a><code>copy-dst</code>:</li>
+<li><a id="gpu_buffer_usage.index"></a><code>index</code>:</li>
+<li><a id="gpu_buffer_usage.vertex"></a><code>vertex</code>:</li>
+<li><a id="gpu_buffer_usage.uniform"></a><code>uniform</code>:</li>
+<li><a id="gpu_buffer_usage.storage"></a><code>storage</code>:</li>
+<li><a id="gpu_buffer_usage.indirect"></a><code>indirect</code>:</li>
+<li><a id="gpu_buffer_usage.query_resolve"></a><code>query-resolve</code>:</li>
 </ul>
 <h4><a id="gpu_canvas_alpha_mode"></a><code>enum gpu-canvas-alpha-mode</code></h4>
 <h5>Enum Cases</h5>
@@ -149,11 +149,11 @@
 <h4><a id="gpu_color_write"></a><code>flags gpu-color-write</code></h4>
 <h5>Flags members</h5>
 <ul>
-<li><a id="gpu_color_write.red"></a><code>red</code>: </li>
-<li><a id="gpu_color_write.green"></a><code>green</code>: </li>
-<li><a id="gpu_color_write.blue"></a><code>blue</code>: </li>
-<li><a id="gpu_color_write.alpha"></a><code>alpha</code>: </li>
-<li><a id="gpu_color_write.all"></a><code>all</code>: </li>
+<li><a id="gpu_color_write.red"></a><code>red</code>:</li>
+<li><a id="gpu_color_write.green"></a><code>green</code>:</li>
+<li><a id="gpu_color_write.blue"></a><code>blue</code>:</li>
+<li><a id="gpu_color_write.alpha"></a><code>alpha</code>:</li>
+<li><a id="gpu_color_write.all"></a><code>all</code>:</li>
 </ul>
 <h4><a id="gpu_command_buffer"></a><code>resource gpu-command-buffer</code></h4>
 <h4><a id="gpu_command_buffer_descriptor"></a><code>record gpu-command-buffer-descriptor</code></h4>
@@ -200,7 +200,7 @@
 <h4><a id="gpu_depth_bias"></a><code>type gpu-depth-bias</code></h4>
 <p><code>s32</code></p>
 <p>
-#### <a id="gpu_device"></a>`resource gpu-device`
+<h4><a id="gpu_device"></a><code>resource gpu-device</code></h4>
 <h4><a id="gpu_device_lost_info"></a><code>resource gpu-device-lost-info</code></h4>
 <h4><a id="gpu_device_lost_reason"></a><code>enum gpu-device-lost-reason</code></h4>
 <h5>Enum Cases</h5>
@@ -270,10 +270,10 @@
 <h4><a id="gpu_index32"></a><code>type gpu-index32</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_integer_coordinate"></a>`type gpu-integer-coordinate`
-`u32`
+<h4><a id="gpu_integer_coordinate"></a><code>type gpu-integer-coordinate</code></h4>
+<p><code>u32</code></p>
 <p>
-#### <a id="gpu_extent3_d"></a>`record gpu-extent3-d`
+<h4><a id="gpu_extent3_d"></a><code>record gpu-extent3-d</code></h4>
 <h5>Record Fields</h5>
 <ul>
 <li><a id="gpu_extent3_d.width"></a><code>width</code>: <a href="#gpu_integer_coordinate"><a href="#gpu_integer_coordinate"><code>gpu-integer-coordinate</code></a></a></li>
@@ -283,7 +283,7 @@
 <h4><a id="gpu_integer_coordinate_out"></a><code>type gpu-integer-coordinate-out</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_load_op"></a>`enum gpu-load-op`
+<h4><a id="gpu_load_op"></a><code>enum gpu-load-op</code></h4>
 <h5>Enum Cases</h5>
 <ul>
 <li><a id="gpu_load_op.load"></a><code>load</code></li>
@@ -292,8 +292,8 @@
 <h4><a id="gpu_map_mode"></a><code>flags gpu-map-mode</code></h4>
 <h5>Flags members</h5>
 <ul>
-<li><a id="gpu_map_mode.read"></a><code>read</code>: </li>
-<li><a id="gpu_map_mode.write"></a><code>write</code>: </li>
+<li><a id="gpu_map_mode.read"></a><code>read</code>:</li>
+<li><a id="gpu_map_mode.write"></a><code>write</code>:</li>
 </ul>
 <h4><a id="gpu_mipmap_filter_mode"></a><code>enum gpu-mipmap-filter-mode</code></h4>
 <h5>Enum Cases</h5>
@@ -311,7 +311,7 @@
 <h4><a id="gpu_pipeline_constant_value"></a><code>type gpu-pipeline-constant-value</code></h4>
 <p><code>f64</code></p>
 <p>
-#### <a id="gpu_pipeline_error_reason"></a>`enum gpu-pipeline-error-reason`
+<h4><a id="gpu_pipeline_error_reason"></a><code>enum gpu-pipeline-error-reason</code></h4>
 <h5>Enum Cases</h5>
 <ul>
 <li><a id="gpu_pipeline_error_reason.validation"></a><code>validation</code></li>
@@ -392,7 +392,7 @@
 <h4><a id="gpu_sample_mask"></a><code>type gpu-sample-mask</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_sampler"></a>`resource gpu-sampler`
+<h4><a id="gpu_sampler"></a><code>resource gpu-sampler</code></h4>
 <h4><a id="gpu_sampler_binding_type"></a><code>enum gpu-sampler-binding-type</code></h4>
 <h5>Enum Cases</h5>
 <ul>
@@ -437,17 +437,17 @@
 <h4><a id="gpu_shader_stage"></a><code>flags gpu-shader-stage</code></h4>
 <h5>Flags members</h5>
 <ul>
-<li><a id="gpu_shader_stage.vertex"></a><code>vertex</code>: </li>
-<li><a id="gpu_shader_stage.fragment"></a><code>fragment</code>: </li>
-<li><a id="gpu_shader_stage.compute"></a><code>compute</code>: </li>
+<li><a id="gpu_shader_stage.vertex"></a><code>vertex</code>:</li>
+<li><a id="gpu_shader_stage.fragment"></a><code>fragment</code>:</li>
+<li><a id="gpu_shader_stage.compute"></a><code>compute</code>:</li>
 </ul>
 <h4><a id="gpu_signed_offset32"></a><code>type gpu-signed-offset32</code></h4>
 <p><code>s32</code></p>
 <p>
-#### <a id="gpu_size32"></a>`type gpu-size32`
-`u32`
+<h4><a id="gpu_size32"></a><code>type gpu-size32</code></h4>
+<p><code>u32</code></p>
 <p>
-#### <a id="gpu_compute_pass_timestamp_writes"></a>`record gpu-compute-pass-timestamp-writes`
+<h4><a id="gpu_compute_pass_timestamp_writes"></a><code>record gpu-compute-pass-timestamp-writes</code></h4>
 <h5>Record Fields</h5>
 <ul>
 <li><a id="gpu_compute_pass_timestamp_writes.query_set"></a><code>query-set</code>: borrow&lt;<a href="#gpu_query_set"><a href="#gpu_query_set"><code>gpu-query-set</code></a></a>&gt;</li>
@@ -491,10 +491,10 @@
 <h4><a id="gpu_size32_out"></a><code>type gpu-size32-out</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_size64"></a>`type gpu-size64`
-`u64`
+<h4><a id="gpu_size64"></a><code>type gpu-size64</code></h4>
+<p><code>u64</code></p>
 <p>
-#### <a id="gpu_buffer_binding"></a>`record gpu-buffer-binding`
+<h4><a id="gpu_buffer_binding"></a><code>record gpu-buffer-binding</code></h4>
 <h5>Record Fields</h5>
 <ul>
 <li><a id="gpu_buffer_binding.buffer"></a><code>buffer</code>: borrow&lt;<a href="#gpu_buffer"><a href="#gpu_buffer"><code>gpu-buffer</code></a></a>&gt;</li>
@@ -519,7 +519,7 @@
 <h4><a id="gpu_size64_out"></a><code>type gpu-size64-out</code></h4>
 <p><code>u64</code></p>
 <p>
-#### <a id="gpu_stencil_operation"></a>`enum gpu-stencil-operation`
+<h4><a id="gpu_stencil_operation"></a><code>enum gpu-stencil-operation</code></h4>
 <h5>Enum Cases</h5>
 <ul>
 <li><a id="gpu_stencil_operation.keep"></a><code>keep</code></li>
@@ -542,7 +542,7 @@
 <h4><a id="gpu_stencil_value"></a><code>type gpu-stencil-value</code></h4>
 <p><code>u32</code></p>
 <p>
-#### <a id="gpu_storage_texture_access"></a>`enum gpu-storage-texture-access`
+<h4><a id="gpu_storage_texture_access"></a><code>enum gpu-storage-texture-access</code></h4>
 <h5>Enum Cases</h5>
 <ul>
 <li><a id="gpu_storage_texture_access.write_only"></a><code>write-only</code></li>
@@ -743,12 +743,12 @@
 <h4><a id="gpu_texture_usage"></a><code>flags gpu-texture-usage</code></h4>
 <h5>Flags members</h5>
 <ul>
-<li><a id="gpu_texture_usage.copy_src"></a><code>copy-src</code>: </li>
-<li><a id="gpu_texture_usage.copy_dst"></a><code>copy-dst</code>: </li>
-<li><a id="gpu_texture_usage.texture_binding"></a><code>texture-binding</code>: </li>
-<li><a id="gpu_texture_usage.storage_binding"></a><code>storage-binding</code>: </li>
-<li><a id="gpu_texture_usage.render_attachment"></a><code>render-attachment</code>: </li>
-<li><a id="gpu_texture_usage.transient_attachment"></a><code>transient-attachment</code>: </li>
+<li><a id="gpu_texture_usage.copy_src"></a><code>copy-src</code>:</li>
+<li><a id="gpu_texture_usage.copy_dst"></a><code>copy-dst</code>:</li>
+<li><a id="gpu_texture_usage.texture_binding"></a><code>texture-binding</code>:</li>
+<li><a id="gpu_texture_usage.storage_binding"></a><code>storage-binding</code>:</li>
+<li><a id="gpu_texture_usage.render_attachment"></a><code>render-attachment</code>:</li>
+<li><a id="gpu_texture_usage.transient_attachment"></a><code>transient-attachment</code>:</li>
 </ul>
 <h4><a id="gpu_texture_view"></a><code>resource gpu-texture-view</code></h4>
 <h4><a id="gpu_binding_resource"></a><code>variant gpu-binding-resource</code></h4>
@@ -1090,15 +1090,15 @@
 </ul>
 <hr />
 <h3>Functions</h3>
-<h4><a id="async_method_gpu_request_adapter"></a><code>[async method]gpu.request-adapter: func</code></h4>
+<h4><a id="method_gpu_request_adapter"></a><code>[method]gpu.request-adapter: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_request_adapter.self"></a><code>self</code>: borrow&lt;<a href="#gpu"><a href="#gpu"><code>gpu</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_request_adapter.options"></a><code>options</code>: option&lt;<a href="#gpu_request_adapter_options"><a href="#gpu_request_adapter_options"><code>gpu-request-adapter-options</code></a></a>&gt;</li>
+<li><a id="method_gpu_request_adapter.self"></a><code>self</code>: borrow&lt;<a href="#gpu"><a href="#gpu"><code>gpu</code></a></a>&gt;</li>
+<li><a id="method_gpu_request_adapter.options"></a><code>options</code>: option&lt;<a href="#gpu_request_adapter_options"><a href="#gpu_request_adapter_options"><code>gpu-request-adapter-options</code></a></a>&gt;</li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_request_adapter.0"></a> option&lt;own&lt;<a href="#gpu_adapter"><a href="#gpu_adapter"><code>gpu-adapter</code></a></a>&gt;&gt;</li>
+<li><a id="method_gpu_request_adapter.0"></a> option&lt;own&lt;<a href="#gpu_adapter"><a href="#gpu_adapter"><code>gpu-adapter</code></a></a>&gt;&gt;</li>
 </ul>
 <h4><a id="method_gpu_get_preferred_canvas_format"></a><code>[method]gpu.get-preferred-canvas-format: func</code></h4>
 <h5>Params</h5>
@@ -1145,15 +1145,15 @@
 <ul>
 <li><a id="method_gpu_adapter_info.0"></a> own&lt;<a href="#gpu_adapter_info"><a href="#gpu_adapter_info"><code>gpu-adapter-info</code></a></a>&gt;</li>
 </ul>
-<h4><a id="async_method_gpu_adapter_request_device"></a><code>[async method]gpu-adapter.request-device: func</code></h4>
+<h4><a id="method_gpu_adapter_request_device"></a><code>[method]gpu-adapter.request-device: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_adapter_request_device.self"></a><code>self</code>: borrow&lt;<a href="#gpu_adapter"><a href="#gpu_adapter"><code>gpu-adapter</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_adapter_request_device.descriptor"></a><code>descriptor</code>: option&lt;<a href="#gpu_device_descriptor"><a href="#gpu_device_descriptor"><code>gpu-device-descriptor</code></a></a>&gt;</li>
+<li><a id="method_gpu_adapter_request_device.self"></a><code>self</code>: borrow&lt;<a href="#gpu_adapter"><a href="#gpu_adapter"><code>gpu-adapter</code></a></a>&gt;</li>
+<li><a id="method_gpu_adapter_request_device.descriptor"></a><code>descriptor</code>: option&lt;<a href="#gpu_device_descriptor"><a href="#gpu_device_descriptor"><code>gpu-device-descriptor</code></a></a>&gt;</li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_adapter_request_device.0"></a> result&lt;own&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;, <a href="#request_device_error"><a href="#request_device_error"><code>request-device-error</code></a></a>&gt;</li>
+<li><a id="method_gpu_adapter_request_device.0"></a> result&lt;own&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;, <a href="#request_device_error"><a href="#request_device_error"><code>request-device-error</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_adapter_info_vendor"></a><code>[method]gpu-adapter-info.vendor: func</code></h4>
 <h5>Params</h5>
@@ -1275,17 +1275,17 @@
 <ul>
 <li><a id="method_gpu_buffer_map_state.0"></a> <a href="#gpu_buffer_map_state"><a href="#gpu_buffer_map_state"><code>gpu-buffer-map-state</code></a></a></li>
 </ul>
-<h4><a id="async_method_gpu_buffer_map_async"></a><code>[async method]gpu-buffer.map-async: func</code></h4>
+<h4><a id="method_gpu_buffer_map_async"></a><code>[method]gpu-buffer.map-async: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_buffer_map_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_buffer"><a href="#gpu_buffer"><code>gpu-buffer</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_buffer_map_async.mode"></a><code>mode</code>: <a href="#gpu_map_mode"><a href="#gpu_map_mode"><code>gpu-map-mode</code></a></a></li>
-<li><a id="async_method_gpu_buffer_map_async.offset"></a><code>offset</code>: option&lt;<a href="#gpu_size64"><a href="#gpu_size64"><code>gpu-size64</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_buffer_map_async.size"></a><code>size</code>: option&lt;<a href="#gpu_size64"><a href="#gpu_size64"><code>gpu-size64</code></a></a>&gt;</li>
+<li><a id="method_gpu_buffer_map_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_buffer"><a href="#gpu_buffer"><code>gpu-buffer</code></a></a>&gt;</li>
+<li><a id="method_gpu_buffer_map_async.mode"></a><code>mode</code>: <a href="#gpu_map_mode"><a href="#gpu_map_mode"><code>gpu-map-mode</code></a></a></li>
+<li><a id="method_gpu_buffer_map_async.offset"></a><code>offset</code>: option&lt;<a href="#gpu_size64"><a href="#gpu_size64"><code>gpu-size64</code></a></a>&gt;</li>
+<li><a id="method_gpu_buffer_map_async.size"></a><code>size</code>: option&lt;<a href="#gpu_size64"><a href="#gpu_size64"><code>gpu-size64</code></a></a>&gt;</li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_buffer_map_async.0"></a> result&lt;_, <a href="#map_async_error"><a href="#map_async_error"><code>map-async-error</code></a></a>&gt;</li>
+<li><a id="method_gpu_buffer_map_async.0"></a> result&lt;_, <a href="#map_async_error"><a href="#map_async_error"><code>map-async-error</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_buffer_get_mapped_range_get_with_copy"></a><code>[method]gpu-buffer.get-mapped-range-get-with-copy: func</code></h4>
 <h5>Params</h5>
@@ -1797,25 +1797,25 @@
 <ul>
 <li><a id="method_gpu_device_create_render_pipeline.0"></a> own&lt;<a href="#gpu_render_pipeline"><a href="#gpu_render_pipeline"><code>gpu-render-pipeline</code></a></a>&gt;</li>
 </ul>
-<h4><a id="async_method_gpu_device_create_compute_pipeline_async"></a><code>[async method]gpu-device.create-compute-pipeline-async: func</code></h4>
+<h4><a id="method_gpu_device_create_compute_pipeline_async"></a><code>[method]gpu-device.create-compute-pipeline-async: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_device_create_compute_pipeline_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_device_create_compute_pipeline_async.descriptor"></a><code>descriptor</code>: <a href="#gpu_compute_pipeline_descriptor"><a href="#gpu_compute_pipeline_descriptor"><code>gpu-compute-pipeline-descriptor</code></a></a></li>
+<li><a id="method_gpu_device_create_compute_pipeline_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_create_compute_pipeline_async.descriptor"></a><code>descriptor</code>: <a href="#gpu_compute_pipeline_descriptor"><a href="#gpu_compute_pipeline_descriptor"><code>gpu-compute-pipeline-descriptor</code></a></a></li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_device_create_compute_pipeline_async.0"></a> result&lt;own&lt;<a href="#gpu_compute_pipeline"><a href="#gpu_compute_pipeline"><code>gpu-compute-pipeline</code></a></a>&gt;, <a href="#create_pipeline_error"><a href="#create_pipeline_error"><code>create-pipeline-error</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_create_compute_pipeline_async.0"></a> result&lt;own&lt;<a href="#gpu_compute_pipeline"><a href="#gpu_compute_pipeline"><code>gpu-compute-pipeline</code></a></a>&gt;, <a href="#create_pipeline_error"><a href="#create_pipeline_error"><code>create-pipeline-error</code></a></a>&gt;</li>
 </ul>
-<h4><a id="async_method_gpu_device_create_render_pipeline_async"></a><code>[async method]gpu-device.create-render-pipeline-async: func</code></h4>
+<h4><a id="method_gpu_device_create_render_pipeline_async"></a><code>[method]gpu-device.create-render-pipeline-async: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_device_create_render_pipeline_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
-<li><a id="async_method_gpu_device_create_render_pipeline_async.descriptor"></a><code>descriptor</code>: <a href="#gpu_render_pipeline_descriptor"><a href="#gpu_render_pipeline_descriptor"><code>gpu-render-pipeline-descriptor</code></a></a></li>
+<li><a id="method_gpu_device_create_render_pipeline_async.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_create_render_pipeline_async.descriptor"></a><code>descriptor</code>: <a href="#gpu_render_pipeline_descriptor"><a href="#gpu_render_pipeline_descriptor"><code>gpu-render-pipeline-descriptor</code></a></a></li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_device_create_render_pipeline_async.0"></a> result&lt;own&lt;<a href="#gpu_render_pipeline"><a href="#gpu_render_pipeline"><code>gpu-render-pipeline</code></a></a>&gt;, <a href="#create_pipeline_error"><a href="#create_pipeline_error"><code>create-pipeline-error</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_create_render_pipeline_async.0"></a> result&lt;own&lt;<a href="#gpu_render_pipeline"><a href="#gpu_render_pipeline"><code>gpu-render-pipeline</code></a></a>&gt;, <a href="#create_pipeline_error"><a href="#create_pipeline_error"><code>create-pipeline-error</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_device_create_command_encoder"></a><code>[method]gpu-device.create-command-encoder: func</code></h4>
 <h5>Params</h5>
@@ -1877,14 +1877,14 @@
 <li><a id="method_gpu_device_push_error_scope.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
 <li><a id="method_gpu_device_push_error_scope.filter"></a><code>filter</code>: <a href="#gpu_error_filter"><a href="#gpu_error_filter"><code>gpu-error-filter</code></a></a></li>
 </ul>
-<h4><a id="async_method_gpu_device_pop_error_scope"></a><code>[async method]gpu-device.pop-error-scope: func</code></h4>
+<h4><a id="method_gpu_device_pop_error_scope"></a><code>[method]gpu-device.pop-error-scope: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_device_pop_error_scope.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_pop_error_scope.self"></a><code>self</code>: borrow&lt;<a href="#gpu_device"><a href="#gpu_device"><code>gpu-device</code></a></a>&gt;</li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_device_pop_error_scope.0"></a> result&lt;option&lt;own&lt;<a href="#gpu_error"><a href="#gpu_error"><code>gpu-error</code></a></a>&gt;&gt;, <a href="#pop_error_scope_error"><a href="#pop_error_scope_error"><code>pop-error-scope-error</code></a></a>&gt;</li>
+<li><a id="method_gpu_device_pop_error_scope.0"></a> result&lt;option&lt;own&lt;<a href="#gpu_error"><a href="#gpu_error"><code>gpu-error</code></a></a>&gt;&gt;, <a href="#pop_error_scope_error"><a href="#pop_error_scope_error"><code>pop-error-scope-error</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_device_on_uncaptured_error"></a><code>[method]gpu-device.on-uncaptured-error: func</code></h4>
 <h5>Params</h5>
@@ -1990,10 +1990,10 @@
 <li><a id="method_gpu_queue_submit.self"></a><code>self</code>: borrow&lt;<a href="#gpu_queue"><a href="#gpu_queue"><code>gpu-queue</code></a></a>&gt;</li>
 <li><a id="method_gpu_queue_submit.command_buffers"></a><code>command-buffers</code>: list&lt;borrow&lt;<a href="#gpu_command_buffer"><a href="#gpu_command_buffer"><code>gpu-command-buffer</code></a></a>&gt;&gt;</li>
 </ul>
-<h4><a id="async_method_gpu_queue_on_submitted_work_done"></a><code>[async method]gpu-queue.on-submitted-work-done: func</code></h4>
+<h4><a id="method_gpu_queue_on_submitted_work_done"></a><code>[method]gpu-queue.on-submitted-work-done: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_queue_on_submitted_work_done.self"></a><code>self</code>: borrow&lt;<a href="#gpu_queue"><a href="#gpu_queue"><code>gpu-queue</code></a></a>&gt;</li>
+<li><a id="method_gpu_queue_on_submitted_work_done.self"></a><code>self</code>: borrow&lt;<a href="#gpu_queue"><a href="#gpu_queue"><code>gpu-queue</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_queue_write_buffer_with_copy"></a><code>[method]gpu-queue.write-buffer-with-copy: func</code></h4>
 <h5>Params</h5>
@@ -2376,14 +2376,14 @@
 <li><a id="method_gpu_sampler_set_label.self"></a><code>self</code>: borrow&lt;<a href="#gpu_sampler"><a href="#gpu_sampler"><code>gpu-sampler</code></a></a>&gt;</li>
 <li><a id="method_gpu_sampler_set_label.label"></a><code>label</code>: <code>string</code></li>
 </ul>
-<h4><a id="async_method_gpu_shader_module_get_compilation_info"></a><code>[async method]gpu-shader-module.get-compilation-info: func</code></h4>
+<h4><a id="method_gpu_shader_module_get_compilation_info"></a><code>[method]gpu-shader-module.get-compilation-info: func</code></h4>
 <h5>Params</h5>
 <ul>
-<li><a id="async_method_gpu_shader_module_get_compilation_info.self"></a><code>self</code>: borrow&lt;<a href="#gpu_shader_module"><a href="#gpu_shader_module"><code>gpu-shader-module</code></a></a>&gt;</li>
+<li><a id="method_gpu_shader_module_get_compilation_info.self"></a><code>self</code>: borrow&lt;<a href="#gpu_shader_module"><a href="#gpu_shader_module"><code>gpu-shader-module</code></a></a>&gt;</li>
 </ul>
 <h5>Return values</h5>
 <ul>
-<li><a id="async_method_gpu_shader_module_get_compilation_info.0"></a> own&lt;<a href="#gpu_compilation_info"><a href="#gpu_compilation_info"><code>gpu-compilation-info</code></a></a>&gt;</li>
+<li><a id="method_gpu_shader_module_get_compilation_info.0"></a> own&lt;<a href="#gpu_compilation_info"><a href="#gpu_compilation_info"><code>gpu-compilation-info</code></a></a>&gt;</li>
 </ul>
 <h4><a id="method_gpu_shader_module_label"></a><code>[method]gpu-shader-module.label: func</code></h4>
 <h5>Params</h5>
